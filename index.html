@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<title>Kezdőlap - Farkas Norbert honlapja</title>
+		<meta charset="UTF-8">
+		<link href="css/normal.css" rel="stylesheet" type="text/css" media="screen">
+		<link href="lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="stilusok.css">
+	</head>
+	<body>
+	<main>
+		<nav>
+				Kezdőlap 
+				|
+				<a href="inf.html">Ált</a>
+				|
+				<a href="inf2.html">Közép</a>
+				|
+				<a href="01_tanevek.html">Tanévek</a>
+				|
+				<a href="02_kektura.html">Kéktúra</a>
+				| 
+				<a href="03_margitsziget.html">Margitsziget</a>
+				| 
+				<a href="04_oneletrajz.html">Önéletrajz</a>
+				| 
+				<a href="img/fn_artic_thumb.jpg" target="_blank"><img src="img/fn_artic.png" height="50" width="50" alt="Arckép lenyomat"></a>
+				<a href="" id="activate-high-contrast"><img src="css/high-contrast.svg" alt="nagykontrasztú változat" height="20"></a>
+				<a href="" id="activate-normal">Vissza a normál változatra</a>
+		</nav>
+		<div id="box">	
+					<section>
+						<h1>Üdvözlöm honlapomon!</h1>
+						<p>Farkas Norbert vagyok, a Budapest <b>XXI. Kerületi Móra Ferenc Általános Iskolában</b> informatikatanárként dolgozom. Itt megnézhető egy „kis” promóciós film:</p>
+						<h1><video width="400" height="450" controls="controls" poster="img/fn_artic_thumb.jpg">
+								<source src="video/fnpr.webm" type="video/webm">
+								<source src="video/fnpr.mp4" type="video/mp4">
+								<source src="video/fnpr.ogg" type="video/ogg">
+								Nem látható a videó? <a href="fnpr.mp4">Töltsd le!</a>
+							</video>
+						</h1>
+						<h2>Videó mérete: 57 mb<h2>
+					</section>
+					<aside>					
+					<form method="post" action="mailto:fnert@freemail.hu">
+						<h1>Üzenet</h1>
+						<p>Itt tudsz üzenetet küldeni:</p>
+						<fieldset class="felhasznalo_adatok">							
+							<p>
+					
+								<label for="utip"><strong>Üzenet jellege: </strong></label>
+								<select size="1" name="utip" id="utip">
+									<option value="szem" selected>Személyes</option>
+									<option value="uzl">Üzleti</option>
+									<option value="egyb">Egyéb</option>
+								</select>
+							</p>
+							<p>
+								<label for="nev"><strong>Név: </strong></label>
+								<input type="text" id="nev" name="on_neve">
+							</p>
+							<p>
+								<strong>Az Ön neme:</strong>
+							</p>
+							<p>
+								<input type="radio" name="nem" value="no" id="v2" checked>
+								<label for="v2">Nő</label><br>
+								<input type="radio" name="nem" value="ferfi" id="v1">
+								<label for="v1">Férfi</label><br>
+							</p>
+						</fieldset>
+						<fieldset class="velemeny_adatok">
+							<p>
+								<label for="vel">Írja meg véleményét: </label>
+							</p>
+							<p>
+								<textarea id="vel" name="velemeny" rows="4" cols="40"></textarea>
+							</p>
+							<p>
+								<input type="checkbox" id="adatk" name="adat" value="igen">
+								<label for="adatk">Elfogadom az adatkezelést.</label>
+							</p>
+						</fieldset>
+							<p class="submit">
+								<input type="submit" value="Elküld">
+							</p>
+							<p>
+								<input type="reset" value="Alaphelyzet">
+							</p>
+					</form>
+					</aside>
+		</div>
+		<article>
+				<h1>Készítette: Farkas Norbert</h1>
+		</article>
+	</main>
+	 <script src="css/css-switch.js"></script>
+	 <script src="lightbox2-master/dist/js/lightbox-plus-jquery.js"></script>
+	</body>
+</html>
+
